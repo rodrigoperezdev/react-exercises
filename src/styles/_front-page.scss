@@ -1,0 +1,104 @@
+@use 'variables';
+
+.front-page {
+    padding-top: 7rem;
+
+    @media screen  and (max-width: 400px){
+        padding-top: 10rem;
+    }
+    &__menu {
+        &--card {
+            background-color: variables.$secondary-dark-color;
+            border-radius: 20px;
+            padding: 2rem 1rem;
+            margin-inline: 1rem;
+            overflow: hidden;
+            position: relative;
+
+            @media screen  and (max-width: 768px){
+                margin-bottom: 2rem;
+            }
+
+            .front-page__menu--bg {
+                position: absolute;
+                background-color: variables.$secondary-text-color;
+                width: 70px;
+                height: 70px;
+                border-radius: 70px;
+                top: -68px;
+                right: -51px;
+                margin: 0;
+                padding: 0;
+                z-index: 1;
+                transition: all .5s cubic-bezier(.39, 0.575, 0.565, 1);
+            }
+
+            .front-page__menu--bg_hover {
+                position: absolute;
+                background-color: variables.$secondary-dark-color;
+                width: 75px;
+                height: 75px;
+                border-radius: 75px;
+                top: -68px;
+                right: -51px;
+                margin: 0;
+                padding: 0;
+                z-index: 1;
+                transition: all .3s cubic-bezier(.39, 0.575, 0.565, 1);
+                transform: scale(0);
+                z-index: 14;
+            }
+            
+
+            h4, p, strong{
+                transition: all .2s ease-in-out;
+                z-index: 11;
+                position: relative;
+            }
+
+            p{ 
+                color: variables.$main-light-color !important;
+                margin-block: 1rem;
+            }
+
+            & .material-symbols-outlined {
+                
+                padding: 0.2rem;
+                background: #ffffff28;
+                border-radius: 24px;
+                align-self: flex-end;
+                z-index: 14;
+              }
+
+            &:hover {
+                .front-page__menu--bg {
+                    width: 500px;
+                    height: 500px;
+                }
+
+                h4, p, strong {
+                    color: variables.$main-light-color !important;
+
+                }
+
+                .front-page__menu--bg_hover {
+
+                    transform: scale(1);
+                }
+
+                & .material-symbols-outlined {
+                
+                    padding: 0.2rem;
+                    background: #2f2016a1;
+                    border-radius: 24px;
+                    align-self: flex-end;
+                  }
+            }
+
+            & div {
+                position: relative;
+                z-index: 11;
+            }
+        }
+    }
+}
