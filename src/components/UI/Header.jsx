@@ -28,34 +28,10 @@ export const Header = ({ children }) => {
                   Home
                 </Link>
               </li>
-
-              <li className="nav-item dropdown position-relative mx-3">
-                <Link
-                  className="nav-link dropdown-toggle"
-                  path="/"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Exercises
-                </Link>
-                <div
-                  className="dropdown-menu dropdown-menu-end position-absolute mt-2 mx-5"
-                  aria-labelledby="navbarDropdown"
-                >
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                  <div className="dropdown-divider"></div>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </div>
+              <li>
+                <a href="" id="github-logo">
+                  <img src="../../images/github.svg" alt="Github logo" />
+                </a>
               </li>
               <li className="mx-3 me-sm-5 d-flex align-items-center">
                 <ToggleDarkModeButton />
@@ -65,7 +41,7 @@ export const Header = ({ children }) => {
         </nav>
       </div>
       <div className={containerClasses}>
-        <div class="container-themes">{children}</div>
+        <div className="container-themes">{children}</div>
       </div>
     </>
   );

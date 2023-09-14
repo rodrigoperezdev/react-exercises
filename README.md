@@ -1,10 +1,5 @@
-# React + Vite
+This project was made using Yarn + Vite, use $yarn install to install all the needed dependencies and yarn dev to run the app in dev mode.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To run the api exercise in dev mode: create a account in https://www.weatherapi.com/ to get an API key then create an .env file in the root of the app with your API key next to the variable: VITE_APIKEY. The .env file should look like this: VITE_APIKEY=YOUR_API_KEY
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# react-exercises
 # react-exercises

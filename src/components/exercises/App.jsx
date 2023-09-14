@@ -44,7 +44,9 @@ export const App = () => {
                   <p>
                     <strong>Made in:</strong> March 2023
                   </p>
-                  <span class="material-symbols-outlined">chevron_right</span>
+                  <span className="material-symbols-outlined">
+                    chevron_right
+                  </span>
                 </div>
               </Link>
               <Link
@@ -58,7 +60,9 @@ export const App = () => {
                   <p>
                     <strong>Made in:</strong> March 2023
                   </p>
-                  <span class="material-symbols-outlined">chevron_right</span>
+                  <span className="material-symbols-outlined">
+                    chevron_right
+                  </span>
                 </div>
               </Link>
               <Link
@@ -73,7 +77,9 @@ export const App = () => {
                   <p>
                     <strong>Made in:</strong> March 2023
                   </p>
-                  <span class="material-symbols-outlined">chevron_right</span>
+                  <span className="material-symbols-outlined">
+                    chevron_right
+                  </span>
                 </div>
               </Link>
             </div>
@@ -90,7 +96,9 @@ export const App = () => {
                   <p>
                     <strong>Made in:</strong> March 2023
                   </p>
-                  <span class="material-symbols-outlined">chevron_right</span>
+                  <span className="material-symbols-outlined">
+                    chevron_right
+                  </span>
                 </div>
               </Link>
               <Link
@@ -105,7 +113,9 @@ export const App = () => {
                   <p>
                     <strong>Made in:</strong> March 2023
                   </p>
-                  <span class="material-symbols-outlined">chevron_right</span>
+                  <span className="material-symbols-outlined">
+                    chevron_right
+                  </span>
                 </div>
               </Link>
               <Link
@@ -120,7 +130,9 @@ export const App = () => {
                   <p>
                     <strong>Made in:</strong> March 2023
                   </p>
-                  <span class="material-symbols-outlined">chevron_right</span>
+                  <span className="material-symbols-outlined">
+                    chevron_right
+                  </span>
                 </div>
               </Link>
             </div>
@@ -137,7 +149,9 @@ export const App = () => {
                   <p>
                     <strong>Made in:</strong> March 2023
                   </p>
-                  <span class="material-symbols-outlined">chevron_right</span>
+                  <span className="material-symbols-outlined">
+                    chevron_right
+                  </span>
                 </div>
               </Link>
               <Link
@@ -151,7 +165,9 @@ export const App = () => {
                   <p>
                     <strong>Made in:</strong> March 2023
                   </p>
-                  <span class="material-symbols-outlined">chevron_right</span>
+                  <span className="material-symbols-outlined">
+                    chevron_right
+                  </span>
                 </div>
               </Link>
               <Link
@@ -166,7 +182,9 @@ export const App = () => {
                   <p>
                     <strong>Made in:</strong> March 2023
                   </p>
-                  <span class="material-symbols-outlined">chevron_right</span>
+                  <span className="material-symbols-outlined">
+                    chevron_right
+                  </span>
                 </div>
               </Link>
             </div>
@@ -182,7 +200,9 @@ export const App = () => {
                   <p>
                     <strong>Made in:</strong> April 2023
                   </p>
-                  <span class="material-symbols-outlined">chevron_right</span>
+                  <span className="material-symbols-outlined">
+                    chevron_right
+                  </span>
                 </div>
               </Link>
             </div>

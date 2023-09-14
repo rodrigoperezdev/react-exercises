@@ -84,6 +84,43 @@
   z-index: 11;
 }
 
+.loader {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  position: relative;
+  margin-block: 2rem;
+  margin-inline: auto;
+}
+
+.loader::after,
+.loader::before {
+  content: "";
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #FFF;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: animloader 2s linear infinite;
+}
+
+.loader::after {
+  animation-delay: 1s;
+}
+
+@keyframes animloader {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
 #root {
   margin: auto;
   text-align: center;
@@ -175,6 +212,19 @@ li {
   background-color: #313131;
 }
 
+#github-logo {
+  width: 30px;
+  display: flex;
+  border-radius: 30px;
+  background-color: #e7e7e7;
+  margin-inline: 10px;
+  transition: all 0.1s ease;
+}
+
+#github-logo:hover {
+  background-color: #ff9100;
+}
+
 .dark-theme .btn {
   background-color: #e7e7e7 !important;
 }
@@ -186,10 +236,10 @@ li {
   color: #e7e7e7 !important;
 }
 .dark-theme .form-control::-moz-placeholder {
-  color: #e7e7e7 !important;
+  color: #c5c5c5 !important;
 }
 .dark-theme .form-control::placeholder {
-  color: #e7e7e7 !important;
+  color: #c5c5c5 !important;
 }
 .dark-theme .form-control:focus {
   background-color: #232323;

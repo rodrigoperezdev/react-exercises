@@ -1,6 +1,7 @@
 @use 'front-page';
 @use 'variables';
 @use 'counter';
+@use 'loader';
 
 #root {
     margin: auto;
@@ -100,6 +101,21 @@
     background-color: #313131;
   }
 
+  #github-logo {
+    width: 30px;
+    display: flex;
+    border-radius: 30px;
+    background-color: variables.$main-light-color;
+    margin-inline: 10px;
+    transition: all .1s ease;
+  }
+
+  #github-logo:hover {
+
+    background-color: variables.$secondary-text-color;
+ 
+  }
+
   .dark-theme {
     & .btn{
         background-color: variables.$main-light-color !important;
@@ -114,7 +130,7 @@
     }
 
     & .form-control::placeholder {
-        color: variables.$main-light-color !important;
+        color: variables.$main-gray !important;
     }
 
     & .form-control:focus {

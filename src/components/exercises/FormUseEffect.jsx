@@ -38,7 +38,7 @@ export const FormUseEffect = () => {
                     onChange={(e) => setFormInput(e.target.value)}
                     value={formInput}
                   />
-                  <div class="valid-feedback text-start">You got it!</div>
+                  <div className="valid-feedback text-start">You got it!</div>
                 </div>
               ) : (
                 <div>
@@ -49,7 +49,7 @@ export const FormUseEffect = () => {
                     onChange={(e) => setFormInput(e.target.value)}
                     value={formInput}
                   />
-                  <div class="invalid-feedback text-start">
+                  <div className="invalid-feedback text-start">
                     That's not the word!
                   </div>
                 </div>

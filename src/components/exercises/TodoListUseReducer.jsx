@@ -2,6 +2,7 @@ import React, { useContext, useReducer, useState } from "react";
 import { ToggleDarkModeButton } from "../UI/ToggleDarkModeButton";
 import { ThemeContext } from "../../themes/ThemeProvider";
 import { Header } from "../UI/Header";
+import { useEffect } from "react";
 
 export const TodoListUseReducer = () => {
   const initialState = [
@@ -95,6 +96,7 @@ export const TodoListUseReducer = () => {
             type="text"
             className="w-100 mb-3"
             placeholder="Add a new Todo"
+            value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
           />
           <div>

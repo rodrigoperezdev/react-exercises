@@ -22,13 +22,14 @@ export const UseContext = () => {
               can pass the global state as a prop through each nested component.
               <br />
               <br />
-              <p>
-                Read more:{" "}
-                <a href="https://es.react.dev/reference/react/useContext">
-                  https://es.react.dev/reference/react/useContext
-                </a>
-              </p>
-              You can read the actual code in my GitHub repository:
+            </p>
+            <p>
+              Read more:{" "}
+              <a href="https://es.react.dev/reference/react/useContext">
+                https://es.react.dev/reference/react/useContext
+              </a>
+              <br />
+              <br />y siem You can read the actual code in my GitHub repository:
             </p>
             <Link to={"/"}>
               <button className="btn mt-4">Go back</button>
