@@ -27,7 +27,10 @@ export const App = () => {
                 it's made by (at least at the time I did it) and for beginners.
                 <br />
                 Routing is made with <strong>react router dom</strong> and you
-                can find the code in this public Github link:
+                can find the code in this public Github link:{" "}
+                <a href="https://github.com/rodrigoperezdev/react-exercises">
+                  https://github.com/rodrigoperezdev/react-exercises
+                </a>
               </p>
             </div>
           </div>

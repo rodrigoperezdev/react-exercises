@@ -29,7 +29,11 @@ export const UseContext = () => {
                 https://es.react.dev/reference/react/useContext
               </a>
               <br />
-              <br />y siem You can read the actual code in my GitHub repository:
+              <br />
+              You can read the actual code in my GitHub repository:{" "}
+              <a href="https://github.com/rodrigoperezdev/react-exercises">
+                https://github.com/rodrigoperezdev/react-exercises
+              </a>
             </p>
             <Link to={"/"}>
               <button className="btn mt-4">Go back</button>

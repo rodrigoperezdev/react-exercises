@@ -29,7 +29,10 @@ export const Header = ({ children }) => {
                 </Link>
               </li>
               <li>
-                <a href="" id="github-logo">
+                <a
+                  href="https://github.com/rodrigoperezdev/react-exercises"
+                  id="github-logo"
+                >
                   <img src="../../images/github.svg" alt="Github logo" />
                 </a>
               </li>
